@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    flex-flow: column;
+    background-image: url(entering\ a\ train.jpg);
+    height: 100vh;
+}
+
+header {
+    display: block;
+    place-content: center;
+    width: 100%;
+
+}
+
+main {
+    display: grid;
+    place-content: center;
+}
+
+#container {
+    background: white;
+    width: 80%;
+    min-height: fit-content;
+    margin: auto;
+    border: 0.4rem solid grey;
+    border-radius: 15px;
+    opacity: 90%;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+#heading {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+    font-size: 3rem;
+    text-decoration: overline;
+}
+
+h2 {
+    font: 3rem bold Helvetica;
+    background: lightblue;
+    border: 3px solid black;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    
+    margin-bottom: 5px;
+    border: 3px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn {
+    display: flex;
+    flex-flow: column;
+}
+
+#increment-btn {
+    background: blue;
+}
+
+#save-btn {
+    background: green;
+}
+
+#save-el {
+    font-size: 1.5rem;
+    color: darkblue;
+}
+
+@media screen and (min-width=640px) {
+    h1 {
+        align-items: left;
+    }
+
+    button {
+        width: 300px;
+    }
+}
